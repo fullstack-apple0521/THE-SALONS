@@ -943,7 +943,7 @@ li a:hover,p a:hover {
 }
 
 #advantages .advantages>li:nth-child(1) .text::after {
-    content: "Stylish"
+    content: "Chair set"
 }
 
 @media (min-width: 768px) {
@@ -971,7 +971,7 @@ li a:hover,p a:hover {
 }
 
 #advantages .advantages>li:nth-child(2) .text::after {
-    content: "Reasonable"
+    content: "Shampoo"
 }
 
 @media (min-width: 768px) {
@@ -994,11 +994,11 @@ li a:hover,p a:hover {
 }
 
 #advantages .advantages>li:nth-child(3) .text::after {
-    content: "Kitchen"
+    content: "Mirror"
 }
 
 @media (min-width: 768px) {
-    #advantages .advantages>li:nth-child(4),#advantages .advantages>li:nth-child(5),#advantages .advantages>li:nth-child(6) {
+    #advantages .advantages>li:nth-child(4),#advantages .advantages>li:nth-child(5),#advantages .advantages>li:nth-child(6),#advantages .advantages>li:nth-child(7), #advantages .advantages>li:nth-child(8) {
         -webkit-box-align:center;
         -ms-flex-align: center;
         align-items: center;
@@ -1009,7 +1009,7 @@ li a:hover,p a:hover {
 }
 
 @media (min-width: 768px) {
-    #advantages .advantages>li:nth-child(4) .text,#advantages .advantages>li:nth-child(5) .text,#advantages .advantages>li:nth-child(6) .text {
+    #advantages .advantages>li:nth-child(4) .text,#advantages .advantages>li:nth-child(5) .text,#advantages .advantages>li:nth-child(6) .text, #advantages .advantages>li:nth-child(7) .text, #advantages .advantages>li:nth-child(8) .text {
         -ms-flex-negative:0;
         flex-shrink: 0;
         max-width: 510px;
@@ -1027,11 +1027,11 @@ li a:hover,p a:hover {
 }
 
 #advantages .advantages>li:nth-child(4) .text::after {
-    content: "Private\ARoom"
+    content: "Tax"
 }
 
 #advantages .advantages>li:nth-child(5) .text::after {
-    content: "Great\ALocation"
+    content: "Light \A Equipment"
 }
 
 @media (min-width: 768px) {
@@ -1044,7 +1044,7 @@ li a:hover,p a:hover {
 }
 
 #advantages .advantages>li:nth-child(6) .text::after {
-    content: "Community"
+    content: "Sink"
 }
 
 .section {

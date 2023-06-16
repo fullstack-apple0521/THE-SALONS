@@ -26,12 +26,29 @@
     line-height: 35px;
 }
 
+@media (max-width: 768px) {
+    #advantages p{
+        width: 85%;
+    }
+
+    #advantages p br{
+        display: none;
+    }
+}
+
 .main_info{
     width: 100%;
     height: 50vw;
     max-height: 600px;
     object-fit: cover;
     object-position: center center;
+}
+
+@media (max-width: 768px) {
+    .main_info{
+        height: 100vw;
+        max-height: 500px;
+    }
 }
 
 #vacancies .vacancies>li img{
@@ -54,7 +71,8 @@
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
@@ -79,10 +97,19 @@
 
 .voice_content{
     width: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media(max-width: 767px){
+    .voice_content{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+        padding: 5% 0;
+    }
 }
 
 .voice_content h3{
@@ -96,7 +123,25 @@
 
 #work {
     background: #f8f8f8;
-    margin-top: 150px
+    margin-top: 70px
+}
+
+@media (max-width: 768px) {
+    #work {
+        margin: 0;
+    }
+
+    #work h2 br{
+        display: none;
+    }
+
+    #work p br{
+        display: none;
+    }
+
+    .voice_content h3 br{
+        display: none;
+    }
 }
 
 #work h2{
@@ -130,7 +175,7 @@ swiper-slide img {
     display: block;
     width: 100%;
     height: auto;
-    max-height: 20vw;
+    max-height: 350px;
     object-position: center center;
     object-fit: cover;
 }
@@ -157,19 +202,49 @@ swiper-slide img {
     border-radius: 3%;
 }
 
+@media (max-width: 767px) {
+    .shop_content{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
 #advantage2 ul{
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 550px) {
+    #advantage2 ul{
+        display: block;
+    }
 }
 
 #advantage2 ul li{
     width: 30%;
 }
 
+@media (max-width: 550px) {
+    #advantage2 ul li{
+        width: 100%;
+        display: flex;
+        gap: 0 10vw;
+        align-items: center;
+    }
+}
+
 #advantage2 ul li figure{
     width: 100%;
     height: 20vw;
     max-height: 300px;
+}
+
+@media (max-width: 550px) {
+    #advantage2 ul li figure{
+        width: 100%;
+        height: 40vw;
+    }
 }
 
 #advantage2 ul li figure img{
@@ -232,4 +307,5 @@ swiper-slide img {
         -ms-flex-direction: row-reverse;
         flex-direction: row-reverse
     }
+
 }

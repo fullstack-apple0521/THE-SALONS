@@ -196,11 +196,17 @@ li a:hover,p a:hover {
 @media (min-width: 768px) {
     .page-header .page-nav a {
         min-width:auto;
-        padding: 25px 20px
+        padding: 25px 15px
     }
 
     .page-header .page-nav a:hover::after {
         width: 24px
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-header .page-nav a {
+        padding: 25px 20px
     }
 }
 
@@ -598,11 +604,18 @@ li a:hover,p a:hover {
 }
 
 #about .hgroup h2 {
-    font-size: 40px;
+    font-size: 37px;
     letter-spacing: 0.3em;
-    line-height: 50px;
+    line-height: 47px;
     margin-top: 1em;
     text-align: center
+}
+
+@media (min-width: 768px) {
+    #about .hgroup h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
 }
 
 #about figure {
@@ -651,11 +664,18 @@ li a:hover,p a:hover {
 }
 
 #advantages h1 {
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 0.3em;
     line-height: 1.6;
     padding: 0 20px;
     text-align: center
+}
+
+@media (min-width: 768px) {
+    #advantages h1{
+        font-size: 40px;
+        line-height: 1.6;
+    }
 }
 
 #advantages nav {
@@ -917,6 +937,12 @@ li a:hover,p a:hover {
     font-size: 14px;
     line-height: 1.6;
     padding: 16px 20px
+}
+
+@media (max-width: 425px) {
+    #advantages .advantages>li .shared>li {
+        padding: 16px 10px
+    }
 }
 
 #advantages .advantages>li .shared>li p {
@@ -1188,6 +1214,32 @@ li a:hover,p a:hover {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
+    }
+}
+
+#layouts .layouts li figure {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#layouts .layouts li figure img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 500px) {
+    #layouts .layouts li figure img{
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    #layouts .layouts li figure img{
+        width: 100%;
+        object-fit: contain;
+        object-position: top;
     }
 }
 

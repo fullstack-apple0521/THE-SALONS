@@ -342,7 +342,7 @@ li a:hover,p a:hover {
     bottom: 40px;
     color: #fff;
     display: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     height: 200px;
     line-height: 1.5;
@@ -350,7 +350,7 @@ li a:hover,p a:hover {
     position: fixed;
     right: 40px;
     text-align: center;
-    width: 160px;
+    width: 175px;
     z-index: 50
 }
 
@@ -488,7 +488,7 @@ li a:hover,p a:hover {
 }
 
 .above-the-fold .hero h2 {
-    margin-bottom: 0.3em
+    margin-bottom: 0.5em
 }
 
 .above-the-fold .hero h3 {
@@ -570,7 +570,7 @@ li a:hover,p a:hover {
 #about .hgroup::before {
     font-size: 70px;
     color: rgba(0,0,0,0.03);
-    content: "The\A Salons\A Concept";
+    content: "Owner's \A Salon";
     font-family: "Roboto","æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium","æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“","Yu Gothic Medium",YuGothic,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro","Hiragino Kaku Gothic Pro","ãƒ¡ã‚¤ãƒªã‚ª",Meiryo,"ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","MS PGothic",sans-serif;
     font-size: 100px;
     font-weight: 900;
@@ -581,7 +581,8 @@ li a:hover,p a:hover {
     top: -0.55em;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    white-space: pre
+    white-space: pre;
+    z-index: -1;
 }
 
 @media screen and (min-width: 320px) {
@@ -1378,7 +1379,7 @@ li a:hover,p a:hover {
     background: #000;
     border-radius: 2px;
     color: #fff;
-    content: "å¿…é ˆ";
+    content: "※";
     font-size: 12px;
     line-height: 18px;
     margin-left: 5px;

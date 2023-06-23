@@ -309,3 +309,60 @@ swiper-slide img {
     }
 
 }
+
+@media (min-width: 768px) {
+    #advantages .advantages>li:nth-child(9) {
+        -webkit-box-align:center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media (min-width: 768px) {
+    #advantages .advantages>li:nth-child(9) .text {
+        -ms-flex-negative:0;
+        flex-shrink: 0;
+        max-width: 370px
+    }
+}
+
+#advantages .advantages>li:nth-child(9) .text::after {
+    content: "Towel"
+}
+
+@media (min-width: 768px) {
+    #advantages .advantages>li:nth-child(10) {
+        -webkit-box-align:center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media (min-width: 768px) {
+    #advantages .advantages>li:nth-child(10) .text {
+        -ms-flex-negative:0;
+        flex-shrink: 0;
+        max-width: 370px
+    }
+}
+
+#advantages .advantages>li:nth-child(8) .text::after {
+    content: "Wi-Fi"
+}
+
+@media (min-width: 768px) {
+    #advantages .advantages>li:nth-child(10) {
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse
+    }
+
+}
+
